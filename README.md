@@ -16,15 +16,25 @@
 ### Execução
 **Abra o terminal e acesse a pasta do projeto**
 1. Instale o virtualenv
-`pip install virtualenv`
+```
+    pip install virtualenv
+```
 2. Crie o ambiente virtual
-`python3 -m venv .venv`
+```
+    python3 -m venv .venv
+```
 3. Ative o ambiente virtual
-`. .venv /bin/activate`
+```
+    . .venv /bin/activate
+```
 4. Instale as bibliotecas necessárias
-`pip install -r requirements.txt`
+```
+    pip install -r requirements.txt
+```
 5. Execute o arquivo main.py
-`python3 main.py`
+```
+    python3 main.py
+```
 6. Acesse o endereço http://127.0.0.1:5002/meuip no navegador ou alguma ferramenta para teste de API como: 
   * Insomnia https://insomnia.rest/download
   * Postman: https://www.postman.com/
